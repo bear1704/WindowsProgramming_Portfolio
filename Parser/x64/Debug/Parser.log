@@ -1,0 +1,10 @@
+﻿  main.cpp
+  PParser.cpp
+D:\SC\C_C++\Git\WindowsProgram\Parser\PParser.cpp(33,24): warning C4129:  '/': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+D:\SC\C_C++\Git\WindowsProgram\Parser\PParser.cpp(34,23): warning C4129:  '.': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+D:\SC\C_C++\Git\WindowsProgram\Parser\PParser.cpp(34,23): warning C4129:  ':': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+D:\SC\C_C++\Git\WindowsProgram\Parser\PParser.cpp(34,23): warning C4129:  '!': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+D:\SC\C_C++\Git\WindowsProgram\Parser\PParser.cpp(34,23): warning C4129:  '(': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+  코드를 생성하고 있습니다...
+D:\SC\C_C++\Git\WindowsProgram\Parser\PParser.cpp(34,23): warning C4129:  ')': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+  Parser.vcxproj -> D:\SC\C_C++\Git\WindowsProgram\x64\Debug\Parser.exe

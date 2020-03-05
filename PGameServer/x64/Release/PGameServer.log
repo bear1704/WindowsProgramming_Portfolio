@@ -1,0 +1,4 @@
+﻿  PServerInstructionProcessor.cpp
+  Sample.cpp
+D:\SC\C_C++\Git\WindowsProgram\PGameServer\PServerInstructionProcessor.h(2,10): error C1083:  포함 파일을 열 수 없습니다. 'TServerStd.h': No such file or directory
+D:\SC\C_C++\Git\WindowsProgram\PGameServer\Sample.h(2,10): error C1083:  포함 파일을 열 수 없습니다. 'PNetwork.h': No such file or directory

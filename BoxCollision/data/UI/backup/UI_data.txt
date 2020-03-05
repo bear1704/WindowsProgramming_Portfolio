@@ -1,0 +1,18 @@
+#DATA 17
+cashshopbutton 0 0 0 32 33 1.0 1.0 data/UI/sprite/UI_sprite.txt cashshopbutton
+eventbutton 0 0 0 32 33 1.0 1.0 data/UI/sprite/UI_sprite.txt eventbutton
+characterbutton 0 0 0 32 33 1.0 1.0 data/UI/sprite/UI_sprite.txt characterbutton
+communitybutton 0 0 0 32 33 1.0 1.0 data/UI/sprite/UI_sprite.txt communitybutton
+optionbutton 0 0 0 32 33 1.0 1.0 data/UI/sprite/UI_sprite.txt optionbutton
+menubutton 0 0 0 32 33 1.0 1.0 data/UI/sprite/UI_sprite.txt menubutton
+hpbar 0 0 0 170 12 1.0 1.0 data/UI/sprite/UI_sprite.txt hpbar
+mpbar 0 0 0 170 12 1.0 1.0 data/UI/sprite/UI_sprite.txt mpbar
+guage_slot 0 0 0 204 70  1.0 1.0 data/UI/sprite/UI_sprite.txt guage_slot
+guage_slot_background 0 0 0 198 37 1.0 1.0 data/UI/sprite/UI_sprite.txt guage_slot_background
+quickslot 0 0 0 150 70 1.0 1.0 data/UI/sprite/UI_sprite.txt quickSlot
+expbar_background 0 0 0 1024 10 1.0 1.0 data/UI/sprite/UI_sprite.txt expbar_background
+expbar 0 0 0 1008 7 1.0 1.0 data/UI/sprite/UI_sprite.txt expbar
+expbar_separate 0 0 0 810 7 1.0 1.0 data/UI/sprite/UI_sprite.txt expbar_separate
+dmg_font 0 0 0 35 36 1.0 1.0 data/UI/sprite/UI_sprite.txt dmg_font
+end_illust 0 0 0 1024 768 1.0 1.0 data/UI/sprite/UI_sprite.txt end_illust
+gameover_illust 0 0 0 1024 768 1.0 1.0 data/UI/sprite/UI_sprite.txt gameover_illust

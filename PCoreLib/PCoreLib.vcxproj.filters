@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\GameObject">
+      <UniqueIdentifier>{6a44b2a2-a91d-4d4c-b6cf-b911cfb8251b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{cf11d7ac-f11c-442c-a124-dc3135b0daf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Bitmap, Sprite">
+      <UniqueIdentifier>{21569d14-979f-4fe1-a59f-a2c94634485b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Util">
+      <UniqueIdentifier>{f03dc2ec-3e7b-4291-ba95-2484785640a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System">
+      <UniqueIdentifier>{7d916c23-fcd3-46c0-92a4-64159b2e2ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI">
+      <UniqueIdentifier>{d47f25d8-46ba-4249-97d7-43d28c95d1d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FSM">
+      <UniqueIdentifier>{46f3b941-fe8e-4c68-a55e-d24fd0a7694c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{8e40e6bc-ea3c-4f3d-aef5-5025d9bd2989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PlayerState">
+      <UniqueIdentifier>{fd8e75a8-5064-4952-aa7f-cbeb0fcb30a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MonsterState">
+      <UniqueIdentifier>{adf4c6d5-d7ca-4638-b24a-c726105f432d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Parser">
+      <UniqueIdentifier>{cbe7f7f7-5328-4831-8ac5-2a767b28fc68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BossState">
+      <UniqueIdentifier>{bd153075-c0d1-4505-8817-1f742253b2b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\NetworkDataManager">
+      <UniqueIdentifier>{86bd0e59-0029-47a4-92bf-21ec12cdfb78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Skill">
+      <UniqueIdentifier>{d2283fc9-ebd0-4f65-9427-3eac356a6e8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PCoreLib.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="PCoreLib.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PBitmap.h">
+      <Filter>소스 파일\Bitmap, Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="PSprite.h">
+      <Filter>소스 파일\Bitmap, Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="PSpriteManager.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PSoundMgr.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PWallAndPlatform.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PBitmapManager.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PCharacter.h">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PMonster.h">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PPlayerCharacter.h">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PRectObject.h">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="P2DCamera.h">
+      <Filter>소스 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="PCollision.h">
+      <Filter>소스 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="PPhysicsModule.h">
+      <Filter>소스 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="PObjectRotateUtil.h">
+      <Filter>소스 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="PInput.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="PCore.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="PSound.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="PStd.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="PTimer.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="PWindow.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="PObjectInfoManager.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PButtonControl.h">
+      <Filter>소스 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PImageControl.h">
+      <Filter>소스 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PUIComponent.h">
+      <Filter>소스 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PUIDataManager.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PObjectDataManager.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PPlayerStatus.h">
+      <Filter>소스 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="PScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PFsm.h">
+      <Filter>소스 파일\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="PFiniteState.h">
+      <Filter>소스 파일\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="PAttackAction.h">
+      <Filter>소스 파일\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="PIdleAction.h">
+      <Filter>소스 파일\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="PMoveAction.h">
+      <Filter>소스 파일\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="PPlayerState.h">
+      <Filter>소스 파일\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="PJumpAction.h">
+      <Filter>소스 파일\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="PDeadAction.h">
+      <Filter>소스 파일\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="PHitAction.h">
+      <Filter>소스 파일\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="PMobState.h">
+      <Filter>소스 파일\MonsterState</Filter>
+    </ClInclude>
+    <ClInclude Include="PMobAttackAction.h">
+      <Filter>소스 파일\MonsterState</Filter>
+    </ClInclude>
+    <ClInclude Include="PMobMoveAction.h">
+      <Filter>소스 파일\MonsterState</Filter>
+    </ClInclude>
+    <ClInclude Include="PMobIdleAction.h">
+      <Filter>소스 파일\MonsterState</Filter>
+    </ClInclude>
+    <ClInclude Include="PMobJumpAction.h">
+      <Filter>소스 파일\MonsterState</Filter>
+    </ClInclude>
+    <ClInclude Include="PMobDeadAction.h">
+      <Filter>소스 파일\MonsterState</Filter>
+    </ClInclude>
+    <ClInclude Include="PMobHitAction.h">
+      <Filter>소스 파일\MonsterState</Filter>
+    </ClInclude>
+    <ClInclude Include="PComponentStorage.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PMobReviveAction.h">
+      <Filter>소스 파일\MonsterState</Filter>
+    </ClInclude>
+    <ClInclude Include="PParser.h">
+      <Filter>소스 파일\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="PBossMonster.h">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PBossMobHitAction.h">
+      <Filter>소스 파일\BossState</Filter>
+    </ClInclude>
+    <ClInclude Include="PBossMobIdleAction.h">
+      <Filter>소스 파일\BossState</Filter>
+    </ClInclude>
+    <ClInclude Include="PBossMobState.h">
+      <Filter>소스 파일\BossState</Filter>
+    </ClInclude>
+    <ClInclude Include="PNetworkDataStorage.h">
+      <Filter>소스 파일\NetworkDataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PBossMobSkillAction.h">
+      <Filter>소스 파일\BossState</Filter>
+    </ClInclude>
+    <ClInclude Include="PSkill.h">
+      <Filter>소스 파일\Skill</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PSprite.cpp">
+      <Filter>소스 파일\Bitmap, Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="PPlayerCharacter.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PMonster.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PCharacter.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PRectObject.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PBitmap.cpp">
+      <Filter>소스 파일\Bitmap, Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="PBitmapManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PSoundMgr.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PObjectRotateUtil.cpp">
+      <Filter>소스 파일\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="PPhysicsModule.cpp">
+      <Filter>소스 파일\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="PCollision.cpp">
+      <Filter>소스 파일\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="P2DCamera.cpp">
+      <Filter>소스 파일\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="PTimer.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="PInput.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="PCore.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="PWindow.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="PWallAndPlatform.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PSpriteManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PObjectInfoManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PButtonControl.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PImageControl.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PUIComponent.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PUIDataManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PObjectDataManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PPlayerStatus.cpp">
+      <Filter>소스 파일\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="PScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PFiniteState.cpp">
+      <Filter>소스 파일\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="PFsm.cpp">
+      <Filter>소스 파일\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="PSound.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="PPlayerState.cpp">
+      <Filter>소스 파일\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="PIdleAction.cpp">
+      <Filter>소스 파일\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="PMoveAction.cpp">
+      <Filter>소스 파일\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="PAttackAction.cpp">
+      <Filter>소스 파일\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="PJumpAction.cpp">
+      <Filter>소스 파일\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="PDeadAction.cpp">
+      <Filter>소스 파일\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="PHitAction.cpp">
+      <Filter>소스 파일\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="PMobState.cpp">
+      <Filter>소스 파일\MonsterState</Filter>
+    </ClCompile>
+    <ClCompile Include="PMobAttackAction.cpp">
+      <Filter>소스 파일\MonsterState</Filter>
+    </ClCompile>
+    <ClCompile Include="PMobMoveAction.cpp">
+      <Filter>소스 파일\MonsterState</Filter>
+    </ClCompile>
+    <ClCompile Include="PMobJumpAction.cpp">
+      <Filter>소스 파일\MonsterState</Filter>
+    </ClCompile>
+    <ClCompile Include="PMobIdleAction.cpp">
+      <Filter>소스 파일\MonsterState</Filter>
+    </ClCompile>
+    <ClCompile Include="PMobHitAction.cpp">
+      <Filter>소스 파일\MonsterState</Filter>
+    </ClCompile>
+    <ClCompile Include="PMobDeadAction.cpp">
+      <Filter>소스 파일\MonsterState</Filter>
+    </ClCompile>
+    <ClCompile Include="PComponentStorage.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PMobReviveAction.cpp">
+      <Filter>소스 파일\MonsterState</Filter>
+    </ClCompile>
+    <ClCompile Include="PParser.cpp">
+      <Filter>소스 파일\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="PBossMonster.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PBossMobHitAction.cpp">
+      <Filter>소스 파일\BossState</Filter>
+    </ClCompile>
+    <ClCompile Include="PBossMobIdleAction.cpp">
+      <Filter>소스 파일\BossState</Filter>
+    </ClCompile>
+    <ClCompile Include="PBossMobState.cpp">
+      <Filter>소스 파일\BossState</Filter>
+    </ClCompile>
+    <ClCompile Include="PNetworkDataStorage.cpp">
+      <Filter>소스 파일\NetworkDataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PBossMobSkillAction.cpp">
+      <Filter>소스 파일\BossState</Filter>
+    </ClCompile>
+    <ClCompile Include="PSkill.cpp">
+      <Filter>소스 파일\Skill</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
